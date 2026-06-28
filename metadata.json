@@ -1,0 +1,6 @@
+{
+  "name": "Infinity Wall Studio",
+  "description": "High-quality, immersive curated wallpapers with gorgeous categories, lock-screen previews, dynamic schedulers, and daily updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

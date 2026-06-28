@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Decorative cosmic outer star circle -->
+    <path
+        android:pathData="M 54 28 A 26 26 0 1 1 53.9 28"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2238BDF8" />
+
+    <!-- Mountain wallpaper silhouette -->
+    <path
+        android:pathData="M38,66 L48,52 L56,60 L66,46 L76,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="46"
+                android:endX="54"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#6366F1" android:offset="0.0"/>
+                <item android:color="#38BDF8" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Star symbol (Unsplash / Photography tribute) -->
+    <path
+        android:pathData="M 64 42 A 3.5 3.5 0 1 1 63.9 42"
+        android:fillColor="#EC4899" />
+
+    <!-- Elegant custom continuous Infinity loop framing the mountainscape -->
+    <path
+        android:pathData="M54,66 C64,66 74,58 74,50 C74,42 64,38 54,48 C44,38 34,42 34,50 C34,58 44,66 54,66 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#EC4899"
+        android:strokeLineCap="round" />
+</vector>
